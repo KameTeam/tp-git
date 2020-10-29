@@ -68,6 +68,12 @@ body{
 
 
 /* DEBUT Partie FOOTER */
-
+footer {
+    background-color: rgb(purple, yellow, red);
+    height: 15%;
+}
+P {
+    color: black;
+}
 
 /* FIN Partie FOOTER */
