@@ -1,5 +1,62 @@
 /* DEBUT Partie HEADER */
+.page {
+    width: 1000px;
+    margin: auto;
+}
 
+body{
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    background-attachment: fixed;
+    background-repeat: repeat-x ;
+    background-image: url("background.jpg");
+}
+
+.logo, .menu {
+    float: left;
+    width: 500px;
+}
+
+.logo {
+    padding: 15px 0;
+    font-family: 'BallPark' , sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.menu {
+    text-align: right;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20 12px;
+    display: inline-block;
+    
+}
+
+.menu ul li a:hover {
+    background-color: black;
+    color: #fff;
+}
+
+
+.clear {
+    clear: both;
+}
 
 /* FIN Partie HEADER */
 
